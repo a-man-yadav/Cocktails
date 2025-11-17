@@ -23,3 +23,7 @@ scrollTrigger: {
     trigger: 'nav', //element position
     start: 'bottom top' //controlls when the scroll animation starts and ends
 }
+
+for scrub based animation we need key frame for each frame which is generally not present in videos 
+to do that
+use ffmpeg // this is remsinng to do 1:24:00 time stamp
