@@ -12,3 +12,14 @@ these are not default classes but created seperatly
   @apply flex justify-center items-center
 }
 defined like these and can be used directly in className
+
+in map function if we use .map(() => {}) then we need to use return keyword to return something but to directly return it we can use () paranthesis
+
+navTween=> {
+    Tweening in animation is short fot inbetweening, and it's the process of generating images that go between keyframes
+}
+
+scrollTrigger: {
+    trigger: 'nav', //element position
+    start: 'bottom top' //controlls when the scroll animation starts and ends
+}
