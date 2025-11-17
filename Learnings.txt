@@ -1,0 +1,14 @@
+import gsap, { ScrollTrigger, SplitText } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
+putting these two lines in app will allow the global access of these gsap plugins
+ScrollTrigger allw us to animate things based on scroll position
+SplitText allow us to bra=eak words into individual letter/characters for better control over our animation
+
+
+utility classes are used to make things easier to write code and shorten it 
+these are not default classes but created seperatly
+@utility flex-center {
+  @apply flex justify-center items-center
+}
+defined like these and can be used directly in className
