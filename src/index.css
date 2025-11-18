@@ -241,7 +241,7 @@ body {
     }
 
     #art {
-        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient overflow-hidden;
+        @apply flex-center flex-col max-h-screen p-5 mt-20 relative radial-gradient overflow-hidden;
 
         h2 {
             @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
@@ -257,14 +257,14 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white ;
+                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-8;
             }
 
             div {
-                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+                @apply opacity-0 md:px-0 px-5 space-y-2 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
 
                 h3 {
-                    @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;
+                    @apply md:text-5xl text-2xl text-center font-serif md:w-[70vw] w-96 text-white;
                 }
 
                 p {
@@ -275,8 +275,8 @@ body {
     }
 
     #menu {
-        @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
-
+        @apply  w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+        overflow-y: hidden;
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
         }
