@@ -19,7 +19,7 @@ const Hero = () => {
       yPercent: 100,
       duration: 1.8,
       ease: "expo.out",
-      stagger: 0.05,
+      stagger: 0.07,
     });
 
     gsap.from(paragraphSplit.lines, {
@@ -70,12 +70,12 @@ const Hero = () => {
         <img
           src="/images/hero-left-leaf.png"
           alt="left-leaf"
-          className="left-leaf"
+          className="left-leaf opacity-80"
         />
         <img
           src="/images/hero-right-leaf.png"
           alt="right-leaf"
-          className="right-leaf"
+          className="right-leaf opacity-80"
         />
         <div className="body">
           <div className="content">
@@ -99,7 +99,6 @@ const Hero = () => {
       </section>
       <div className="video absolute inset-0">
         <video
-        
           ref={videoRef}
           src="/videos/output.mp4"
           muted

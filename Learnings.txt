@@ -27,3 +27,5 @@ scrollTrigger: {
 for scrub based animation we need key frame for each frame which is generally not present in videos 
 to do that
 use ffmpeg // this is remsinng to do 1:24:00 time stamp
+
+className="md:me-20" // this property helps if we want to render something from the ends
